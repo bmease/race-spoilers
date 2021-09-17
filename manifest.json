@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+
+    "name": "race-spoilers",
+    "description": "Hide spoilers for Formula 1 races on reddit.com.",
+    "version": "1.0",
+
+    "content_scripts": [
+        {
+            "matches": ["*://*.reddit.com/*"],
+            "css": ["lib/styles/racespoilers.css"],
+            "js": ["lib/racespoilers.js"]
+        }
+    ]
+}

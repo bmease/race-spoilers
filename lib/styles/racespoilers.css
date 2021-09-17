@@ -1,0 +1,35 @@
+:root {
+    --warm-red: #FF1E00;
+    --carbon-black: #15151E;
+    --carbon-black-tint-90: #2C2C34;
+    --carbon-black-tint-70: #5B5B61;
+    --carbon-black-tint-50: #89898E;
+    --carbon-black-tint-30: #B8B8BB;
+    --off-white: #F7F4F1;
+    --high-vis-white: #FFFFFF;
+
+    --overlay-background: var(--carbon-black);
+}
+
+
+.race-spoilers-container {
+    position: relative;
+}
+
+.race-spoilers-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    background: var(--overlay-background);
+    /* opacity: 0.25; */
+    display: flex;
+}
+
+.race-spoilers-button {
+    outline: none;
+    border: none;
+    background-color: var(--warm-red);
+}
