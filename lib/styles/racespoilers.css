@@ -7,14 +7,17 @@
     --carbon-black-tint-30: #B8B8BB;
     --off-white: #F7F4F1;
     --high-vis-white: #FFFFFF;
-
-    --overlay-background: var(--carbon-black);
 }
 
 
 .race-spoilers-container {
     position: relative;
 }
+
+    .race-spoilers-container > .thing {
+        opacity: 0;
+    }
+
 
 .race-spoilers-overlay {
     position: absolute;
@@ -23,13 +26,62 @@
     left: 0;
     right: 0;
     z-index: 999;
-    background: var(--overlay-background);
+    background: var(--carbon-black);
     /* opacity: 0.25; */
     display: flex;
+
+    border-radius: 1em;
+    padding: 1em;
 }
+
 
 .race-spoilers-button {
     outline: none;
     border: none;
+    box-sizing: border-box;
     background-color: var(--warm-red);
+
+    transition: all .5s cubic-bezier(.2,0,.05,1);
+    padding: 1em;
+
+    font-family: "Titillium Web", Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+
+    border-radius: 0.5em;
 }
+
+    .race-spoilers-button--primary {
+        background-color: var(--warm-red);
+        color: var(--high-vis-white);
+    }
+
+    .race-spoilers-button--primary:hover {
+        box-shadow: 0 0 0 2px var(--warm-red) inset;
+        background-color: var(--high-vis-white);
+        color: var(--carbon-black);
+    }
+
+
+.race-spoilers-track {
+    display: flex;
+}
+
+    .race-spoilers-track__image {
+        height: 50%;
+    }
+
+    .race-spoilers-track__title {
+        color: var(--off-white);
+        text-transform: uppercase;
+    }
+
+    .race-spoilers-track__session {
+        color: var(--off-white);
+        text-transform: uppercase;
+    }
+
+/* .race-spoilers-track {} */

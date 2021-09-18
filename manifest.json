@@ -11,5 +11,10 @@
             "css": ["lib/styles/racespoilers.css"],
             "js": ["lib/racespoilers.js"]
         }
+    ],
+    
+    "web_accessible_resources": [
+        "lib/images/*.png",
+        "lib/fonts/TitilliumWeb-Regular.ttf"
     ]
 }
