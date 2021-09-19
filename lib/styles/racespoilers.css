@@ -10,16 +10,16 @@
 }
 
 
-.race-spoilers-container {
+.rs-container {
     position: relative;
 }
 
-    .race-spoilers-container > .thing {
+    .rs-container > .thing {
         opacity: 0;
     }
 
 
-.race-spoilers-overlay {
+.rs-overlay {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -35,7 +35,7 @@
 }
 
 
-.race-spoilers-button {
+.rs-button {
     outline: none;
     border: none;
     box-sizing: border-box;
@@ -54,34 +54,34 @@
     border-radius: 0.5em;
 }
 
-    .race-spoilers-button--primary {
+    .rs-button--primary {
         background-color: var(--warm-red);
         color: var(--high-vis-white);
     }
 
-    .race-spoilers-button--primary:hover {
+    .rs-button--primary:hover {
         box-shadow: 0 0 0 2px var(--warm-red) inset;
         background-color: var(--high-vis-white);
         color: var(--carbon-black);
     }
 
 
-.race-spoilers-track {
+.rs-track {
     display: flex;
 }
 
-    .race-spoilers-track__image {
+    .rs-track__image {
         height: 50%;
     }
 
-    .race-spoilers-track__title {
+    .rs-track__title {
         color: var(--off-white);
         text-transform: uppercase;
     }
 
-    .race-spoilers-track__session {
+    .rs-track__session {
         color: var(--off-white);
         text-transform: uppercase;
     }
 
-/* .race-spoilers-track {} */
+/* .rs-track {} */
