@@ -5,6 +5,10 @@
     "description": "Hide spoilers for Formula 1 races on reddit.com.",
     "version": "1.0",
 
+    "background": {
+        "page": "lib/background.html"
+    },
+
     "content_scripts": [
         {
             "matches": ["*://*.reddit.com/*"],
