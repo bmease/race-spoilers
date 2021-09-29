@@ -15,7 +15,7 @@
             "css": ["lib/styles/racespoilers.css"],
             "js": [
                 "node_modules/webextension-polyfill/dist/browser-polyfill.js",
-                "lib/racespoilers.js"
+                "lib/content-script.js"
             ]
         }
     ],
