@@ -84,4 +84,8 @@
         text-transform: uppercase;
     }
 
+    .rs-track__time {
+        color: var(--off-white);
+    }
+
 /* .rs-track {} */
