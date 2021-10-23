@@ -23,9 +23,11 @@
     "permissions": ["storage"],
     
     "web_accessible_resources": [
-        "lib/utilities/log.js",
         "lib/data/f1-calendar-2021.json",
+        "lib/defaults.js",
+        "lib/fonts/TitilliumWeb-Regular.ttf",
         "lib/images/*.png",
-        "lib/fonts/TitilliumWeb-Regular.ttf"
+        "lib/utilities/log.js",
+        "lib/utilities/utilities.js"
     ]
 }
