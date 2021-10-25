@@ -89,3 +89,30 @@
     }
 
 /* .rs-track {} */
+
+.rs-session {
+    font-family: "Titillium Web", Helvetica, sans-serif;
+}
+
+    .rs-session__row {}
+
+        .rs-session__row--heading {
+            color: var(--high-vis-white);
+            background: var(--carbon-black);
+            text-align: left;
+        }
+
+        .rs-session__row--disabled {
+            /* color: #999; */
+            color: var(--carbon-black-tint-50);
+        }
+
+    .rs-session__item {}
+
+        .rs-session__item--name {
+            font-weight: 600;
+        }
+
+        .rs-session__item--time {
+            text-align: right;
+        }

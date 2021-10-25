@@ -9,6 +9,11 @@
         "page": "lib/background.html"
     },
 
+    "browser_action": {
+        "default_title": "Race Spoilers",
+        "default_popup": "lib/popup.html"
+    },
+
     "content_scripts": [
         {
             "matches": ["*://*.reddit.com/*"],
