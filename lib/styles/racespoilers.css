@@ -116,3 +116,42 @@
         .rs-session__item--time {
             text-align: right;
         }
+
+        .rs-session--item--blocked {
+            text-align: right;
+        }
+
+.rs-race {
+    display: flex;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
+
+    .rs-race--expand {
+        text-align: center;
+        color: var(--carbon-black-tint-70);
+        font-size: 0.7em;
+        margin-top: 0.15em;
+        margin-bottom: 0.15em;
+        margin-right: 0.5em;
+        /* display: inline; */
+    }
+
+    .rs-race--name {
+        letter-spacing: 1px;
+        width: 100;
+        flex-grow: 4;
+    }
+
+    .rs-race--blocked {
+        flex-grow: 1;
+        width: 2em;
+        max-width: 2em;
+        text-align: right;
+    }
+
+.rs-previous {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
