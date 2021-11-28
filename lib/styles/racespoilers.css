@@ -32,6 +32,7 @@
 
     border-radius: 1em;
     padding: 1em;
+    font-family: "Titillium Web", Helvetica, sans-serif;
 }
 
 
@@ -92,8 +93,12 @@
 
 .popup-container {
     font-family: "Titillium Web", Helvetica, sans-serif;
-    margin: 1em;
-    margin-left: 0.5em;
+    /* margin: 1em; */
+    /* margin-left: 0.5em; */
+    display: flex;
+    flex-direction: column;
+    padding-left: 1.5em;
+    padding-right: 3em;
 }
 
 .rs-session {
@@ -156,29 +161,72 @@
     }
 
 .rs-header {
-    border-top: 0.20em solid var(--warm-red);
-    border-left: 0.25em solid var(--warm-red);
-    border-top-left-radius: 0.25em;
-    padding-left: 0.5em;
-    padding-top: 0.2em;
+    display: flex;
+
+    border-top: 2px solid var(--carbon-black-tint-50);
+    border-right: 2px solid var(--carbon-black-tint-50);
+    border-top-right-radius: 1em;
+
+    margin-bottom: 1.5em;
 }
 
+    .rs-header--main {
+        border: none;
+        margin-bottom: 0;
+    }
+
+    .rs-header__title {
+        margin: 0;
+        flex-grow: 1;
+        font-family: "Titillium Web", Helvetica, sans-serif;
+        text-transform: uppercase;
+    }
+
+    .rs-header__line {
+        flex-grow: 4;
+        width: 100%;
+        border-top: 0.5em solid var(--warm-red);
+        border-right: 0.5em solid var(--warm-red);
+        border-top-right-radius: 1em;
+        padding-top: 0.2em;
+        margin-top: 1em;
+        margin-left: 1em;
+        margin-right: -2em;
+    }
+
 .rs-previous {
-    width: 100%;
+    width: 110%;
     margin: 0;
+    margin-top: 2em;
     padding: 0;
     white-space: nowrap;
 }
 
-    .rs-previous--header {
-        border-top: 0.20em solid var(--warm-red);
-        border-left: 0.25em solid var(--warm-red);
-        border-top-left-radius: 0.25em;
-        padding-left: 0.5em;
-        padding-top: 0.2em;
-    }
-
     .rs-previous--list {
         margin: 0.25em;
         padding: 0;
+    }
+
+.rs-details {
+    margin-top: 1em;
+    margin-bottom: 2em;
+
+}
+
+    .rs-details--info {
+        border-right: 0.5em solid var(--warm-red);
+        margin-left: 0.5em;
+        padding-right: 1em;
+        width: 100%;
+    }
+
+    .rs-details--name {
+        margin: 0;
+        font-size: 2.5em;
+    }
+
+    .rs-details--location {
+        margin: 0;
+        margin-bottom: 1em;
+        color: var(--carbon-black-tint-70);
     }
