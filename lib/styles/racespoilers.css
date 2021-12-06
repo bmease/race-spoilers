@@ -26,11 +26,11 @@
     left: 0;
     right: 0;
     z-index: 999;
-    background: var(--carbon-black);
+    /* background: var(--carbon-black); */
+    background: var(--high-vis-white);
     /* opacity: 0.25; */
     display: flex;
 
-    border-radius: 1em;
     padding: 1em;
     font-family: "Titillium Web", Helvetica, sans-serif;
 }
@@ -53,6 +53,8 @@
     letter-spacing: 0.5px;
 
     border-radius: 0.5em;
+
+    height: 3.5em;
 }
 
     .rs-button--primary {
@@ -69,24 +71,55 @@
 
 .rs-track {
     display: flex;
+    color: var(--carbon-black);
+    width: 100%;
+    align-items: baseline;
 }
 
-    .rs-track__image {
-        height: 50%;
+    .rs-track__heading {
+        flex-grow: 1;
+        display: flex;
+        align-self: center;
+        width: 100%;
     }
 
-    .rs-track__title {
-        color: var(--off-white);
-        text-transform: uppercase;
+        .rs-track__image {
+            height: 4em;
+            filter: invert();
+        }
+
+        .rs-track__title {
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 2.5em;
+            margin: 0;
+            margin-right: 0.5em;
+            margin-left: 0.5em;
+        }
+
+    .rs-track__info {
+        flex-grow: 4;
+        align-self: center;
+        width: 100%;
     }
 
-    .rs-track__session {
-        color: var(--off-white);
-        text-transform: uppercase;
-    }
+        .rs-track__session {
+            text-transform: uppercase;
+            color: var(--carbon-black);
+            font-size: 1.5em;
+            align-self: center;
+        }
 
-    .rs-track__time {
-        color: var(--off-white);
+        .rs-track__time {
+            color: var(--carbon-black-tint-70);
+            font-size: 0.9em;
+        }
+
+    .rs-track__controls {
+        flex-grow: 1;
+        text-align: right;
+        align-self: center;
+        width: 100%;
     }
 
 /* .rs-track {} */
