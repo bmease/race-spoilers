@@ -136,6 +136,12 @@
 
 .rs-session {
     white-space: nowrap;
+    width: 100%;
+    margin-left: 2em;
+    border-right: 0.5em solid var(--warm-red);
+    padding-right: 2em;
+    padding-top: 2em;
+
 }
 
     .rs-session__row {}
@@ -242,15 +248,30 @@
 
 .rs-details {
     margin-top: 1em;
-    margin-bottom: 2em;
+    /* margin-bottom: 2em; */
 
 }
 
+    .rs-details__container {
+        display: flex;
+        margin-left: 2em;
+        width: 100%;
+        /* margin-bottom: 2em; */
+    }
+
+    .rs-details__image {
+        flex-grow: 1;
+        max-width: 25%;
+        height: fit-content;
+        align-self: center;
+    }
+
     .rs-details__info {
         border-right: 0.5em solid var(--warm-red);
-        margin-left: 0.5em;
+        margin-left: 2em;
         padding-right: 1em;
         width: 100%;
+        flex-grow: 3;
     }
 
     .rs-details__name {
