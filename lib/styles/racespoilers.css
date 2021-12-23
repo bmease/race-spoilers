@@ -171,10 +171,19 @@
             text-align: right;
         }
 
+.rs-races {
+    margin: 0;
+    padding: 0;
+    padding-right: 1em;
+}
+
 .rs-race {
     display: flex;
     margin-bottom: 0.5em;
 }
+    .rs-race--disabled {
+        color: var(--carbon-black-tint-50);
+    }
 
     .rs-race__expand {
         text-align: center;
@@ -233,18 +242,14 @@
         margin-right: -2em;
     }
 
-.rs-previous {
+.rs-section {
+    /* FIXME: max width should be 100% */
     width: 110%;
     margin: 0;
     margin-top: 2em;
     padding: 0;
     white-space: nowrap;
 }
-
-    .rs-previous--list {
-        margin: 0.25em;
-        padding: 0;
-    }
 
 .rs-details {
     margin-top: 1em;
