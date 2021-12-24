@@ -126,13 +126,16 @@
 
 .popup-container {
     font-family: "Titillium Web", Helvetica, sans-serif;
-    /* margin: 1em; */
-    /* margin-left: 0.5em; */
     display: flex;
     flex-direction: column;
     padding-left: 1.5em;
     padding-right: 3em;
+    user-select: none;
 }
+
+    .popup-container input {
+        cursor: pointer;
+    }
 
 .rs-session {
     white-space: nowrap;
