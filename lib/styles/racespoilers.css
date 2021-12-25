@@ -9,6 +9,9 @@
     --high-vis-white: #FFFFFF;
 }
 
+/**
+ * Content Script Styles
+ */
 
 .rs-container {
     position: relative;
@@ -122,7 +125,10 @@
         width: 100%;
     }
 
-/* .rs-track {} */
+
+/**
+ * Popup Container Styles
+ */
 
 .popup-container {
     font-family: "Titillium Web", Helvetica, sans-serif;
@@ -156,23 +162,46 @@
         }
 
         .rs-session__row--disabled {
-            /* color: #999; */
             color: var(--carbon-black-tint-50);
+        }
+
+        .rs-session__row--disabled .rs-session__icon {
+            filter: grayscale(0.5);
+            opacity: 0.3;
+            cursor: not-allowed;
         }
 
     .rs-session__item {}
 
-        .rs-session__item__name {
+        .rs-session__item--name {
             font-weight: 600;
         }
 
-        .rs-session__item__time {
+        .rs-session__item--time {
             text-align: right;
         }
 
-        .rs-session--item__blocked {
+        .rs-session--item--blocked {
             text-align: right;
         }
+
+    .rs-session__icon {
+        width: 32px;
+        cursor: pointer;
+    }
+
+        .rs-session__toggle input[type="checkbox"]:checked ~ .rs-session__icon--checked {
+            display: inline;
+        }
+
+        .rs-session__toggle input[type="checkbox"]:checked ~ .rs-session__icon--unchecked {
+            display: none;
+        }
+
+
+    .rs-session__input, .rs-session__icon--checked{
+        display: none;
+    }
 
 .rs-races {
     margin: 0;
