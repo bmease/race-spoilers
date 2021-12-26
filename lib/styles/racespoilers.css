@@ -165,7 +165,7 @@
             color: var(--carbon-black-tint-50);
         }
 
-        .rs-session__row--disabled .rs-session__icon {
+        .rs-session__row--disabled .rs-toggle__icon {
             filter: grayscale(0.5);
             opacity: 0.3;
             cursor: not-allowed;
@@ -185,21 +185,23 @@
             text-align: right;
         }
 
-    .rs-session__icon {
+
+.rs-toggle {}
+
+    .rs-toggle__icon {
         width: 32px;
         cursor: pointer;
     }
 
-        .rs-session__toggle input[type="checkbox"]:checked ~ .rs-session__icon--checked {
+        .rs-toggle input[type="checkbox"]:checked ~ .rs-toggle__icon--checked {
             display: inline;
         }
 
-        .rs-session__toggle input[type="checkbox"]:checked ~ .rs-session__icon--unchecked {
+        .rs-toggle input[type="checkbox"]:checked ~ .rs-toggle__icon--unchecked {
             display: none;
         }
 
-
-    .rs-session__input, .rs-session__icon--checked{
+    .rs-toggle__input, .rs-toggle__icon--checked{
         display: none;
     }
 
