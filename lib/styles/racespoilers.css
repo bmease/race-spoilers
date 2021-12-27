@@ -7,6 +7,8 @@
     --carbon-black-tint-30: #B8B8BB;
     --off-white: #F7F4F1;
     --high-vis-white: #FFFFFF;
+
+    --red: #E10600;
 }
 
 /**
@@ -341,5 +343,10 @@
     .rs-footer__copyright {
         text-align: center;
     }
+
+.rs-options {
+    margin-top: 2em;
     text-align: center;
+    color: var(--red);
+    text-decoration: none;
 }
