@@ -14,6 +14,10 @@
         "default_popup": "lib/popup.html"
     },
 
+    "options_ui": {
+        "page": "lib/options.html"
+    },
+
     "content_scripts": [
         {
             "matches": ["*://*.reddit.com/*"],

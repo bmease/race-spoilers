@@ -323,3 +323,23 @@
         margin-bottom: 1em;
         color: var(--carbon-black-tint-70);
     }
+
+/**
+ * Options Page Styles
+ */
+     
+.rs-footer {
+    text-align: center;
+}
+
+    .rs-footer__disclaimer  {
+        font-style: italic;
+        color: var(--carbon-black-tint-70);
+        text-align: center;
+    }
+
+    .rs-footer__copyright {
+        text-align: center;
+    }
+    text-align: center;
+}
