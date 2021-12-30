@@ -183,15 +183,15 @@
             text-align: right;
         }
 
-        .rs-session--item--blocked {
-            text-align: right;
+        .rs-session__item--blocked {
+            text-align: center;
         }
 
 
 .rs-toggle {}
 
     .rs-toggle__icon {
-        width: 32px;
+        width: 1.5em;
         cursor: pointer;
     }
 
@@ -220,6 +220,12 @@
     .rs-race--disabled {
         color: var(--carbon-black-tint-50);
     }
+
+        .rs-race--disabled .rs-toggle__icon {
+            filter: grayscale(0.5);
+            opacity: 0.3;
+            cursor: not-allowed;
+        }
 
     .rs-race__expand {
         text-align: center;
@@ -331,6 +337,7 @@
  */
      
 .rs-footer {
+    font-family: "Titillium Web", Helvetica, sans-serif;
     text-align: center;
 }
 
@@ -349,4 +356,5 @@
     text-align: center;
     color: var(--red);
     text-decoration: none;
+    font-family: "Titillium Web", Helvetica, sans-serif;
 }
