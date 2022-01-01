@@ -7,4 +7,41 @@
     "extensionDescription": {
         "message": "Hide spoilers for Formula 1 races on reddit.com.",
         "description": "Description of the extension"
+    },
+
+    "popupHeadingNow": {
+        "message": "Now",
+        "description": "Heading for the race happening now"
+    },
+
+    "popupHeadingNext": {
+        "message": "Next",
+        "description": "Heading for races that are happening next"
+    },
+
+    "popupHeadingPrevious": {
+        "message": "Previous",
+        "description": "Heading for races happening previously"
+    },
+
+    "popupHeadingUpcoming": {
+        "message": "Upcoming",
+        "description": "Heading for races that are upcoming"
+    },
+
+    "popupTableSession": {
+        "message": "Session",
+        "description": "Table heading for a race session"
+    },
+
+    "popupTableTime": {
+        "message": "Time",
+        "description": "Table heading for a race time"
+    },
+
+    "popupLinkOptions": {
+        "message": "Options",
+        "description": "Link to the options page"
+    }
+
 }
