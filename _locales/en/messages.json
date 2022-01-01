@@ -1,0 +1,10 @@
+{
+    "extensionName": {
+        "message": "Reddit Race Spoilers",
+        "description": "Name of the extension"
+    },
+
+    "extensionDescription": {
+        "message": "Hide spoilers for Formula 1 races on reddit.com.",
+        "description": "Description of the extension"
+}
