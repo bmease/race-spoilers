@@ -45,42 +45,42 @@
     },
 
     "sessionNameFP1": {
-        "message": "xxxFree Practice 1",
+        "message": "Free Practice 1",
         "description": "The name for the race session of Free Practice 1"
     },
 
     "sessionNameFP2": {
-        "message": "xxxFree Practice 2",
+        "message": "Free Practice 2",
         "description": "The name for the race session of Free Practice 2"
     },
 
     "sessionNameFP3": {
-        "message": "xxxFree Practice 3",
+        "message": "Free Practice 3",
         "description": "The name for the race session of Free Practice 3"
     },
 
     "sessionNameQualifying": {
-        "message": "xxxQualifying",
+        "message": "Qualifying",
         "description": "The name for the race session of Qualifying"
     },
 
     "sessionNameSprintQualifying": {
-        "message": "xxxSprint Qualifying",
+        "message": "Sprint Qualifying",
         "description": "The name for the race session of Sprint Qualifying"
     },
 
     "sessionNameRace": {
-        "message": "xxxRace",
+        "message": "Race",
         "description": "The name for the race session of the Race"
     },
 
     "contentScriptButtonRevealPost": {
-        "message": "xxxReveal Post",
+        "message": "Reveal Post",
         "description": "Button label to reveal a post"
     },
 
     "contentScriptButtonRevealRace": {
-        "message": "xxxReveal Race",
+        "message": "Reveal Race",
         "description": "Button label to reveal a race"
     }
 }
