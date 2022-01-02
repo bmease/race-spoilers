@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "web-ext build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "web-ext lint",
     "start:firefox": "web-ext run --target firefox-desktop --start-url old.reddit.com/r/formula1"
