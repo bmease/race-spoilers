@@ -42,6 +42,45 @@
     "popupLinkOptions": {
         "message": "Options",
         "description": "Link to the options page"
-    }
+    },
 
+    "sessionNameFP1": {
+        "message": "xxxFree Practice 1",
+        "description": "The name for the race session of Free Practice 1"
+    },
+
+    "sessionNameFP2": {
+        "message": "xxxFree Practice 2",
+        "description": "The name for the race session of Free Practice 2"
+    },
+
+    "sessionNameFP3": {
+        "message": "xxxFree Practice 3",
+        "description": "The name for the race session of Free Practice 3"
+    },
+
+    "sessionNameQualifying": {
+        "message": "xxxQualifying",
+        "description": "The name for the race session of Qualifying"
+    },
+
+    "sessionNameSprintQualifying": {
+        "message": "xxxSprint Qualifying",
+        "description": "The name for the race session of Sprint Qualifying"
+    },
+
+    "sessionNameRace": {
+        "message": "xxxRace",
+        "description": "The name for the race session of the Race"
+    },
+
+    "contentScriptButtonRevealPost": {
+        "message": "xxxReveal Post",
+        "description": "Button label to reveal a post"
+    },
+
+    "contentScriptButtonRevealRace": {
+        "message": "xxxReveal Race",
+        "description": "Button label to reveal a race"
+    }
 }
