@@ -6,6 +6,13 @@
     "default_locale": "en",
     "version": "1.0.1",
 
+    "icons": {
+        "48": "lib/images/icon48x48.png",
+        "64": "lib/images/icon64x64.png",
+        "128": "lib/images/icon128x128.png"
+    },
+
+
     "background": {
         "page": "lib/background.html"
     },
