@@ -40,7 +40,7 @@
     "permissions": ["storage"],
     
     "web_accessible_resources": [
-        "lib/data/f1-calendar-2021.json",
+        "lib/data/f1-calendar-2022.json",
         "lib/defaults.js",
         "lib/fonts/TitilliumWeb-Regular.ttf",
         "lib/images/*.png",
